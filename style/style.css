@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /* font-family: 'Manrope', sans-serif; */
+  /* font-weight: 500; */
+  /* font-weight: 800; */
+}
+
+:root {
+  --fontStyleMedium: 'Manrope', sans-serif;
+  --fontWeightMedium: 500;
+  --fontWeightExtraBold: 800;
+  --fontSize: 1rem;
+  --backgroundColorBlue: rgb(62, 233, 229);
+  --backgroundColorDarkBlue: rgb(9, 62, 103);
+  --backgroundColorText: rgb(119, 127, 152);
+  --backgroundColorTitle: rgb(255, 255, 255);
+}
+
+body {
+  background-color: rgb(8, 12, 32);
+}
+
+.logo {
+  margin: 5.06rem 0 7.125rem 10.31rem;
+}
+
+.firstSection {
+  display: flex;
+}
