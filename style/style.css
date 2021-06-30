@@ -1,31 +1,79 @@
 * {
   margin: 0;
   padding: 0;
-
-  /* font-family: 'Manrope', sans-serif; */
-  /* font-weight: 500; */
-  /* font-weight: 800; */
 }
 
 :root {
   --fontStyleMedium: 'Manrope', sans-serif;
   --fontWeightMedium: 500;
   --fontWeightExtraBold: 800;
-  --fontSize: 1rem;
-  --backgroundColorBlue: rgb(62, 233, 229);
-  --backgroundColorDarkBlue: rgb(9, 62, 103);
-  --backgroundColorText: rgb(119, 127, 152);
-  --backgroundColorTitle: rgb(255, 255, 255);
+  --colorBlue: rgb(62, 233, 229);
+  --colorDarkBlue: rgb(9, 62, 103);
+  --colorText: rgb(119, 127, 152);
+  --colorTitle: rgb(255, 255, 255);
 }
 
 body {
   background-color: rgb(8, 12, 32);
+  font-family: 'Manrope', sans-serif;
 }
-
+/****Header****/
 .logo {
   margin: 5.06rem 0 7.125rem 10.31rem;
 }
 
-.firstSection {
+/****Hero****/
+.hero {
+  position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-hero-left {
+  position: absolute;
+  top: 0;
+  left: -3.31rem;
+  z-index: -1;
+}
+
+.img-hero-middle {
+  position: absolute;
+  top: -1.07rem;
+  z-index: -2;
+}
+
+.img-hero-right {
+  position: absolute;
+  top: 0;
+  right: -3.75rem;
+  z-index: -1;
+}
+
+.presentation-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.43rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--colorTitle);
+  line-height: 3.5rem;
+}
+
+.content-hero {
+  text-align: center;
+  width: 47%;
+  margin: 1.5rem 0 4rem 0;
+  font-size: 0.93rem;
+  color: var(--colorText);
+  line-height: 1.56rem;
+}
+
+.span-color {
+  color: var(--colorBlue);
 }

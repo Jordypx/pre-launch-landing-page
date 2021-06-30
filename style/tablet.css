@@ -1,0 +1,41 @@
+/****Header****/
+@media all and (max-width: 768px) {
+  .logo {
+    margin: 3rem 0 4.81rem 2.437rem;
+  }
+  /****Hero****/
+  .img-hero-left {
+    left: -10.56rem;
+    min-height: 356px;
+    width: 314px;
+  }
+
+  .img-hero-middle {
+    width: 386px;
+    min-height: 268px;
+    top: 2.125rem;
+  }
+
+  .img-hero-right {
+    right: -10.687rem;
+    width: 317px;
+    min-height: 356px;
+  }
+
+  .presentation-hero {
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    margin-top: 3.187rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .content-hero {
+    margin: 1.5rem 0 2rem 0;
+    line-height: 1.56rem;
+    width: 60%;
+  }
+}
