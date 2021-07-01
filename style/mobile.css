@@ -1,4 +1,5 @@
 @media all and (max-width: 375px) {
+  /****Header****/
   header {
     display: flex;
     justify-content: center;
@@ -6,15 +7,16 @@
   .logo {
     margin: 2.5rem 0 4.125rem 0rem;
   }
-  /****Hero****/
-  .hero {
-    margin-top: 3rem;
-  }
-
+  /****Content between header & hero****/
   .img-hero-mobile {
     display: flex;
     min-height: 233px;
     width: 410px;
+  }
+
+  /****Hero****/
+  .hero {
+    margin-top: 3rem;
   }
 
   .img-hero-left {

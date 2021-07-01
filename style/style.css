@@ -4,22 +4,33 @@
 }
 
 :root {
-  --fontStyleMedium: 'Manrope', sans-serif;
   --fontWeightMedium: 500;
   --fontWeightExtraBold: 800;
   --colorBlue: rgb(62, 233, 229);
   --colorDarkBlue: rgb(9, 62, 103);
-  --colorText: rgb(119, 127, 152);
   --colorTitle: rgb(255, 255, 255);
+  --borderRadiusImgBox: 45px;
 }
 
 body {
   background-color: rgb(8, 12, 32);
   font-family: 'Manrope', sans-serif;
 }
+
+p {
+  font-size: 0.937rem;
+  line-height: 1.56rem;
+  color: rgb(119, 127, 152);
+  font-weight: var(--fontWeightMedium);
+}
 /****Header****/
 .logo {
   margin: 5.06rem 0 7.125rem 10.31rem;
+}
+
+/****Content between header & hero****/
+.img-mobile {
+  display: none;
 }
 
 /****Hero****/
@@ -28,10 +39,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.img-hero-mobile {
-  display: none;
 }
 
 .img-hero-left {
@@ -68,26 +75,91 @@ h1 {
   font-size: 3rem;
   color: var(--colorTitle);
   line-height: 3.5rem;
-}
-
-.content-hero {
-  text-align: center;
-  width: 47%;
-  margin: 1.5rem 0 4rem 0;
-  font-size: 0.93rem;
-  color: var(--colorText);
-  line-height: 1.56rem;
+  font-weight: var(--fontWeightExtraBold);
 }
 
 .span-color {
   color: var(--colorBlue);
 }
 
+.content-hero {
+  text-align: center;
+  width: 47%;
+  margin: 1.5rem 0 4rem 0;
+}
+
+/**** Modifie hero .img-hero-left and .img-hero-right on desktop at 1215px****/
 @media all and (max-width: 1215px) {
   .img-hero-left {
     left: -11.31rem;
   }
   .img-hero-right {
     right: -11.75rem;
+  }
+}
+
+/****Middle Section****/
+.section-middle-content {
+  display: flex;
+  margin: 17rem 10.31rem 0 10.31rem;
+}
+
+.first-box-middle,
+.second-box-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.second-box-middle {
+  margin-top: 3rem;
+}
+
+.margin-box-middle {
+  margin-right: 1.875rem;
+}
+
+.img-box-start {
+  padding: 1.81rem 2rem 1.81rem 2.5rem;
+  background-color: var(--colorDarkBlue);
+  border-radius: var(--borderRadiusImgBox);
+}
+
+.img-box-middle-left {
+  padding: 2.375rem 2.687rem 2.31rem 2.687rem;
+  background-color: var(--colorDarkBlue);
+  border-radius: var(--borderRadiusImgBox);
+}
+
+.img-box-middle-right {
+  padding: 2.25rem 2.5rem 2.125rem 2.5rem;
+  background-color: var(--colorDarkBlue);
+  border-radius: var(--borderRadiusImgBox);
+}
+
+.img-box-end {
+  padding: 2.81rem 1.75rem 2.81rem 1.75rem;
+  background-color: var(--colorDarkBlue);
+  border-radius: var(--borderRadiusImgBox);
+}
+
+h3 {
+  /* font-size: 1.125rem; */
+  margin: 3rem 0 1.437rem 0;
+  color: var(--colorTitle);
+  font-weight: var(--fontWeightExtraBold);
+}
+
+.paragraph-box-middle {
+  width: 95%;
+}
+
+@media all and (min-width: 1440px) {
+  .first-box-middle,
+  .second-box-middle {
+    align-items: center;
+  }
+  .paragraph-box-middle {
+    text-align: center;
   }
 }

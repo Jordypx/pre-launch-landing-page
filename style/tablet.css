@@ -1,8 +1,10 @@
 /****Header****/
 @media all and (max-width: 768px) {
+  /****Header****/
   .logo {
     margin: 3rem 0 4.81rem 2.437rem;
   }
+
   /****Hero****/
   .img-hero-left {
     left: -10.56rem;
