@@ -1,0 +1,41 @@
+@media all and (max-width: 375px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    margin: 2.5rem 0 4.125rem 0rem;
+  }
+  /****Hero****/
+  .hero {
+    margin-top: 3rem;
+  }
+
+  .img-hero-mobile {
+    display: flex;
+    min-height: 233px;
+    width: 410px;
+  }
+
+  .img-hero-left {
+    display: none;
+  }
+
+  .img-hero-middle {
+    display: none;
+  }
+
+  .img-hero-right {
+    display: none;
+  }
+  .presentation-hero {
+    margin: 3.187rem 0.625rem 0 0.625rem;
+  }
+  h1 {
+    width: 70%;
+  }
+  .content-hero {
+    width: 95%;
+    margin: 1.43rem 0 2rem 0;
+  }
+}

@@ -23,9 +23,7 @@
   }
 
   .presentation-hero {
-    margin-left: 0.625rem;
-    margin-right: 0.625rem;
-    margin-top: 3.187rem;
+    margin: 3.187rem 0.625rem 0 0.625rem;
   }
 
   h1 {
@@ -35,7 +33,15 @@
 
   .content-hero {
     margin: 1.5rem 0 2rem 0;
-    line-height: 1.56rem;
     width: 60%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .img-hero-left {
+    left: -13.31rem;
+  }
+  .img-hero-right {
+    right: -13.75rem;
   }
 }
