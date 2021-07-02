@@ -27,6 +27,12 @@ h1 {
   font-weight: var(--fontWeightExtraBold);
 }
 
+h2 {
+  font-size: 2.5rem;
+  color: var(--colorTitle);
+  font-weight: var(--fontWeightExtraBold);
+}
+
 h3 {
   color: var(--colorTitle);
   font-weight: var(--fontWeightExtraBold);
@@ -38,6 +44,12 @@ h4 {
   font-size: 1.125rem;
   margin-bottom: 1.437rem;
   color: var(--colorTitle);
+  font-weight: var(--fontWeightExtraBold);
+}
+
+h5 {
+  color: var(--colorTitle);
+  font-size: 1.125rem;
   font-weight: var(--fontWeightExtraBold);
 }
 
@@ -137,8 +149,6 @@ p {
 .text-content-box {
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  justify-content: center; */
 }
 
 .img-box-start {
@@ -200,4 +210,56 @@ p {
   margin-top: 1.5rem;
   text-align: center;
   width: 40%;
+}
+
+.box-price-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-box-price {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--colorDarkBlue);
+  border-radius: 8px;
+}
+
+.start-box-icon {
+  position: absolute;
+  top: -1.437rem;
+  left: 2.375rem;
+}
+
+.start-box-content {
+  margin: 3.06rem 0 0 2.375rem;
+}
+
+.start-box-content > p {
+  margin: 1.187rem 0 1.5rem 0;
+  width: 70%;
+}
+
+.options-start-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 3rem 2.375rem;
+}
+
+.options-start-box > h2 {
+  margin-bottom: 0.437rem;
+}
+
+.options-content {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.options-content > p {
+  margin-left: 0.957rem;
+  color: var(--colorTitle);
 }
