@@ -8,7 +8,7 @@
     margin: 2.5rem 0 4.125rem 0rem;
   }
   /****Content between header & hero****/
-  .img-hero-mobile {
+  .img-mobile {
     display: flex;
     min-height: 233px;
     width: 410px;
@@ -39,5 +39,40 @@
   .content-hero {
     width: 95%;
     margin: 1.43rem 0 2rem 0;
+  }
+
+  /****Middle Section****/
+  .section-middle-content {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+  .first-box-middle,
+  .second-box-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .margin-box1-middle-tablet {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .margin-box2-middle-tablet {
+    margin-bottom: 3.5rem;
+  }
+
+  .text-content-box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .paragraph-box-middle {
+    text-align: center;
   }
 }
