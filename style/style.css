@@ -18,6 +18,29 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  text-align: center;
+  width: 50%;
+  font-size: 3rem;
+  color: var(--colorTitle);
+  line-height: 3.5rem;
+  font-weight: var(--fontWeightExtraBold);
+}
+
+h3 {
+  color: var(--colorTitle);
+  font-weight: var(--fontWeightExtraBold);
+  font-size: 2rem;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.125rem;
+  margin-bottom: 1.437rem;
+  color: var(--colorTitle);
+  font-weight: var(--fontWeightExtraBold);
+}
+
 p {
   font-size: 0.937rem;
   line-height: 1.56rem;
@@ -68,15 +91,6 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 4.43rem;
-}
-
-h1 {
-  text-align: center;
-  width: 50%;
-  font-size: 3rem;
-  color: var(--colorTitle);
-  line-height: 3.5rem;
-  font-weight: var(--fontWeightExtraBold);
 }
 
 .span-color {
@@ -156,14 +170,6 @@ h1 {
   align-items: center;
 }
 
-h4 {
-  text-align: center;
-  font-size: 1.125rem;
-  margin-bottom: 1.437rem;
-  color: var(--colorTitle);
-  font-weight: var(--fontWeightExtraBold);
-}
-
 .paragraph-box-middle {
   width: 95%;
   text-align: center;
@@ -174,4 +180,24 @@ h4 {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+}
+
+/****Price Section****/
+.price-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4.5rem;
+}
+
+.content-price-container > p {
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 40%;
 }
