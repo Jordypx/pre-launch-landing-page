@@ -204,7 +204,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 28.125rem 4.5rem 28.125rem;
+  margin: 0 28.125rem 6.56rem 28.125rem;
 }
 
 .content-price-container > p {
@@ -214,8 +214,6 @@ p {
 
 .box-price-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 16.25rem 0 16.25rem;
 }
 
@@ -270,7 +268,6 @@ p {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-color: var(--colorBlue);
   border-radius: 8px;
   margin-left: 1.875rem;

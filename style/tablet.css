@@ -96,6 +96,30 @@
   h4 {
     margin-bottom: 0.687rem;
   }
+
+  /**** Price section ****/
+  .content-price-container {
+    margin: 0 6.097rem 4.937rem 6.097rem;
+  }
+
+  .content-price-container > h3 {
+    font-size: 1.5rem;
+  }
+
+  .content-price-container > p {
+    margin-top: 1.68rem;
+  }
+
+  .box-price-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10.09rem 0 10.09rem;
+  }
+
+  .end-box-price {
+    margin-left: 0;
+    margin-top: 4.06rem;
+  }
 }
 
 @media all and (max-width: 600px) {
