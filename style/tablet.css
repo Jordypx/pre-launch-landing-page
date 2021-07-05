@@ -1,5 +1,14 @@
 /****Header****/
 @media all and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  h4 {
+    margin-bottom: 0.687rem;
+  }
+
   /****Header****/
   .logo {
     margin: 3rem 0 4.81rem 2.437rem;
@@ -26,11 +35,6 @@
 
   .presentation-hero {
     margin: 3.187rem 0.625rem 0 0.625rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-    line-height: 2.5rem;
   }
 
   .content-hero {
@@ -93,10 +97,6 @@
     margin-top: 0;
   }
 
-  h4 {
-    margin-bottom: 0.687rem;
-  }
-
   /**** Price section ****/
   .content-price-container {
     margin: 0 6.097rem 4.937rem 6.097rem;
@@ -122,7 +122,19 @@
   }
 }
 
+@media all and (max-width: 630px) {
+  /****Price section****/
+  .box-price-container {
+    margin: 0 3rem 0 3rem;
+  }
+}
+
 @media all and (max-width: 600px) {
+  h1 {
+    width: 60%;
+  }
+
+  /****Middle section****/
   .first-box-middle {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -139,5 +151,10 @@
 
   .img-hero-right {
     right: -13.75rem;
+  }
+
+  /****Price section ****/
+  .content-price-container {
+    margin: 0 2rem 4.937rem 2rem;
   }
 }

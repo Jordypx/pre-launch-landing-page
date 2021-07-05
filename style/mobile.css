@@ -1,4 +1,8 @@
 @media all and (max-width: 375px) {
+  h1 {
+    width: 70%;
+  }
+
   /****Header****/
   header {
     display: flex;
@@ -33,9 +37,7 @@
   .presentation-hero {
     margin: 3.187rem 0.625rem 0 0.625rem;
   }
-  h1 {
-    width: 70%;
-  }
+
   .content-hero {
     width: 95%;
     margin: 1.43rem 0 2rem 0;
@@ -97,7 +99,7 @@
   }
 
   .options-start-box {
-    margin: 0 0 2rem 1.81rem;
+    margin: 0 1.81rem 2rem 1.81rem;
   }
   /*end box price*/
   .end-box-price {
@@ -110,7 +112,6 @@
   }
 
   .options-end-box {
-    margin-left: 1.81rem;
-    margin-bottom: 2rem;
+    margin: 0 1.81rem 2rem 1.81rem;
   }
 }

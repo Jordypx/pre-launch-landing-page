@@ -116,16 +116,6 @@ p {
   margin: 1.5rem 0 4rem 0;
 }
 
-/**** Modifie hero .img-hero-left and .img-hero-right on desktop at 1215px****/
-@media all and (max-width: 1215px) {
-  .img-hero-left {
-    left: -11.31rem;
-  }
-  .img-hero-right {
-    right: -11.75rem;
-  }
-}
-
 /****Middle Section****/
 .section-middle-content {
   display: flex;
@@ -186,13 +176,6 @@ p {
   text-align: center;
 }
 
-@media all and (max-width: 1060px) {
-  .section-middle-content {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
-
 /****Price Section****/
 .price-container {
   display: flex;
@@ -205,11 +188,11 @@ p {
   justify-content: center;
   align-items: center;
   margin: 0 28.125rem 6.56rem 28.125rem;
+  text-align: center;
 }
 
 .content-price-container > p {
   margin-top: 1.5rem;
-  text-align: center;
 }
 
 .box-price-container {
@@ -247,7 +230,7 @@ p {
 .options-start-box {
   display: flex;
   flex-direction: column;
-  margin: 0 0 3rem 2.375rem;
+  margin: 0 2.375rem 3rem 2.375rem;
 }
 
 .options-start-box > h2 {
@@ -300,8 +283,7 @@ p {
 .options-end-box {
   display: flex;
   flex-direction: column;
-  margin-left: 2.375rem;
-  margin-bottom: 3.75rem;
+  margin: 0 2.375rem 3.75rem 2.375rem;
 }
 
 .title-price-end-box {
@@ -322,4 +304,33 @@ p {
 
 .end-options-content > p {
   margin-left: 0.957rem;
+}
+
+@media all and (max-width: 1350px) {
+  /****Price section****/
+  .content-price-container {
+    margin: 0 10rem 6.56rem 10rem;
+  }
+
+  .box-price-container {
+    margin: 0 5rem 0 5rem;
+  }
+}
+
+@media all and (max-width: 1215px) {
+  /****Hero ****/
+  .img-hero-left {
+    left: -11.31rem;
+  }
+  .img-hero-right {
+    right: -11.75rem;
+  }
+}
+
+@media all and (max-width: 1060px) {
+  /****Middle section****/
+  .section-middle-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
