@@ -91,7 +91,7 @@
   .box-price-container {
     margin: 0 1.5rem 0 1.5rem;
   }
-
+  /*start box price*/
   .start-box-content {
     margin: 3.06rem 1.81rem 1.625rem 1.81rem;
   }
@@ -99,7 +99,7 @@
   .options-start-box {
     margin: 0 0 2rem 1.81rem;
   }
-
+  /*end box price*/
   .end-box-price {
     margin-left: 0;
     margin-top: 4.06rem;
