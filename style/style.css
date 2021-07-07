@@ -324,7 +324,7 @@ footer > img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 3.25rem;
+  padding-top: 3.25rem;
 }
 
 .footer-content > h3 {

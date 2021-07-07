@@ -114,4 +114,57 @@
   .options-end-box {
     margin: 0 1.81rem 2rem 1.81rem;
   }
+
+  /****Footer****/
+  footer {
+    position: relative;
+    margin: 9rem 0 10.25rem 0;
+  }
+
+  footer > img {
+    min-height: 80px;
+    width: 584px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .footer-content {
+    padding-top: 0rem;
+    text-align: center;
+  }
+
+  .footer-content > h3 {
+    margin-bottom: 1.937rem;
+    font-size: 1.5rem;
+  }
+
+  .box-footer-form {
+    position: relative;
+  }
+
+  #error {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #inputForm {
+    width: 19.321rem;
+    margin-right: 0rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #buttonFormFooter {
+    width: 327px;
+  }
 }
