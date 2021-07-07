@@ -314,6 +314,8 @@ footer {
 
 footer > img {
   position: absolute;
+  left: -13.98rem;
+  top: 0;
   z-index: -1;
 }
 
@@ -322,6 +324,7 @@ footer > img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 3.25rem;
 }
 
 .footer-content > h3 {
@@ -380,6 +383,15 @@ input:focus {
   border: 2px solid rgb(62, 233, 229);
   background-color: rgb(8, 12, 32);
   color: var(--colorTitle);
+}
+
+@media all and (min-width: 1441px) {
+  footer > img {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
 }
 
 @media all and (max-width: 1350px) {
