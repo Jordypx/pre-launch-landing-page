@@ -178,4 +178,36 @@
   .content-price-container {
     margin: 0 2rem 4.937rem 2rem;
   }
+
+  /****Footer ****/
+  .footer-content {
+    text-align: center;
+  }
+  .box-footer-form {
+    position: relative;
+  }
+
+  #error {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #inputForm {
+    width: 19.321rem;
+    margin-right: 0rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #buttonFormFooter {
+    width: 327px;
+  }
 }
