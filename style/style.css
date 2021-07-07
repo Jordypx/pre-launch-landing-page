@@ -314,9 +314,9 @@ footer {
 
 footer > img {
   position: absolute;
-  left: -13.98rem;
   top: 0;
   z-index: -1;
+  left: -13.98rem;
 }
 
 .footer-content {
@@ -324,7 +324,7 @@ footer > img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 3.25rem;
+  top: 3.25rem;
 }
 
 .footer-content > h3 {

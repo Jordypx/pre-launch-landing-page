@@ -122,7 +122,23 @@
   }
 
   /****Footer****/
+  footer {
+    position: relative;
+    margin: 7.43rem 0 6.56rem 0;
+  }
+
+  footer > img {
+    min-height: 140px;
+    width: 1022px;
+    left: -15rem;
+  }
+
+  .footer-content {
+    padding-top: 1rem;
+  }
+
   .footer-content > h3 {
+    margin-bottom: 1.81rem;
     font-size: 1.5rem;
   }
 }
