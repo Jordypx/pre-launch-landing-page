@@ -379,7 +379,7 @@ input:focus {
   font-weight: var(--fontWeightExtraBold);
 }
 
-.button-form-footer:hover {
+#buttonFormFooter:hover {
   border: 2px solid rgb(62, 233, 229);
   background-color: rgb(8, 12, 32);
   color: var(--colorTitle);
