@@ -225,6 +225,8 @@ p {
 
 .start-box-content > p {
   margin-top: 1.187rem;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
 }
 
 .options-start-box {
@@ -259,11 +261,11 @@ p {
 }
 
 .paragraph-end-box {
-  color: var(--backgroundColor);
+  color: rgb(8, 12, 32);
 }
 
 .title-end-box {
-  color: var(--backgroundColor);
+  color: rgb(8, 12, 32);
 }
 
 .end-box-icon {
