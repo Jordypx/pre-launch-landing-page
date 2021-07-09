@@ -1,14 +1,34 @@
-// Verify input when click on button
-function buttonForm() {
-  const inputForm = document.getElementById('inputForm');
-  const errorInput = document.getElementById('error');
-  const regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+const form = document.getElementsByTagName('form')[0];
+const inputForm = document.querySelector('.inputForm');
+const errorInput = document.querySelector('.error');
 
-  if (inputForm === '' || inputForm != regex) {
-    errorInput.style.display = 'block';
-    inputForm.style.border = '2px solid rgb(255, 41, 101)';
-  } else {
-    errorInput.style.display = 'none';
-    inputForm.style.border = '2px solid rgb(255, 41, 101)';
-  }
+// Verify validity of inputForm, if it's valid no error
+inputForm.addEventListener(
+  'input',
+  function (event) {
+    if (inputForm.validity.valid) {
+      inputForm.className = 'inputForm';
+      errorInput.className = 'error';
+    }
+  },
+  false
+);
+
+// Verify validity of inputForm, if it's invalid error appears
+form.addEventListener(
+  'submit',
+  function (event) {
+    if (!inputForm.validity.valid) {
+      inputForm.className = 'inputFormError';
+      errorInput.className = 'errorActive';
+      event.preventDefault();
+    }
+  },
+  false
+);
+
+// clear inputForm when website reload
+function clearInputForm() {
+  document.querySelector('.inputForm').value = '';
 }
+clearInputForm();

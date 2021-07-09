@@ -342,12 +342,16 @@ footer > img {
   flex-direction: column;
 }
 
-#error {
+.error {
+  display: none;
+}
+
+.errorActive {
   margin-left: 1.125rem;
   font-size: 0.75rem;
   color: rgb(255, 41, 101);
   margin-top: 4px;
-  display: none;
+  display: block;
 }
 
 .footer-form {
@@ -356,7 +360,7 @@ footer > img {
   justify-content: space-between;
 }
 
-#inputForm {
+.inputForm {
   width: 320px;
   min-height: 48px;
   margin-right: 1rem;
@@ -369,11 +373,25 @@ footer > img {
   font-weight: var(--fontWeightExtraBold);
 }
 
+.inputFormError {
+  width: 320px;
+  min-height: 48px;
+  margin-right: 1rem;
+  padding-left: 1.125rem;
+  border: 0px solid;
+  border-radius: 24px;
+  background-color: var(--colorDarkBlue);
+  font-size: 0.937rem;
+  color: rgb(119, 127, 152);
+  font-weight: var(--fontWeightExtraBold);
+  border: 2px solid rgb(255, 41, 101);
+}
+
 input:focus {
   outline: none;
 }
 
-#buttonFormFooter {
+.buttonFormFooter {
   width: 140px;
   min-height: 48px;
   border: 0px;
@@ -385,7 +403,7 @@ input:focus {
   font-weight: var(--fontWeightExtraBold);
 }
 
-#buttonFormFooter:hover {
+.buttonFormFooter:hover {
   border: 2px solid rgb(62, 233, 229);
   background-color: rgb(8, 12, 32);
   color: var(--colorTitle);

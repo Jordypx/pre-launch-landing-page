@@ -187,7 +187,7 @@
     position: relative;
   }
 
-  #error {
+  .errorActive {
     position: absolute;
     top: 51px;
     left: 0;
@@ -201,13 +201,19 @@
     flex-direction: column;
   }
 
-  #inputForm {
+  .inputForm {
     width: 19.321rem;
     margin-right: 0rem;
     margin-bottom: 1.5rem;
   }
 
-  #buttonFormFooter {
+  .inputFormError {
+    width: 19.321rem;
+    margin-right: 0rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .buttonFormFooter {
     width: 327px;
   }
 }
