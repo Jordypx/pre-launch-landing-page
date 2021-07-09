@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://alain-sys.github.io/maker-pre-launch-landing-page/)
+- Live Site URL: https://alain-sys.github.io/maker-pre-launch-landing-page/
 
 ## My process
 
