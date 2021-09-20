@@ -30,7 +30,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](assets/preview.jpg)
+<details>
+<summary>Desktop</summary>
+![](assets/Desktop-maker-pre-launch-landing-page.png)
+</details>
+
+<details>
+<summary>Tablet</summary>
+![](assets/Tablet-maker-pre-launch-landing-page.png)
+</details>
+
+<details>
+<summary>Mobile</summary>
+![](assets/Mobile-maker-pre-launch-landing-page.png)
+</details>
 
 ### Links
 
