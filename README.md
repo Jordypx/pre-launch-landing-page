@@ -31,18 +31,24 @@ Users should be able to:
 ### Screenshot
 
 <details>
-<summary>Desktop</summary>
-<img align="center" width="1440" src="assets/Desktop-maker-pre-launch-landing-page.png" alt=""/>
+  <summary>Desktop</summary>
+  <p align="center">
+    <img src="assets/Desktop-maker-pre-launch-landing-page.png" alt=""/>
+  </p>
 </details>
 
 <details>
-<summary>Tablet</summary>
-<img align="center" width="768" src="assets/Tablet-maker-pre-launch-landing-page.png" alt=""/>
+  <summary>Tablet</summary>
+  <p align="center">
+    <img src="assets/Tablet-maker-pre-launch-landing-page.png" alt=""/>
+  </p>
 </details>
 
 <details>
-<summary>Mobile</summary>
-<img align="center" width="375" src="assets/Mobile-maker-pre-launch-landing-page.png" alt=""/>
+  <summary>Mobile</summary>
+  <p align="center">
+    <img src="assets/Mobile-maker-pre-launch-landing-page.png" alt=""/>
+  </p>
 </details>
 
 ### Links
