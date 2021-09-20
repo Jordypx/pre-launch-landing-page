@@ -32,9 +32,7 @@ Users should be able to:
 
 <details>
   <summary>Desktop</summary>
-  <p align="center">
-    <img src="assets/Desktop-maker-pre-launch-landing-page.png" alt=""/>
-  </p>
+  <img src="assets/Desktop-maker-pre-launch-landing-page.png" alt=""/>
 </details>
 
 <details>
