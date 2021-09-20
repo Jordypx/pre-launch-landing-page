@@ -32,17 +32,17 @@ Users should be able to:
 
 <details>
 <summary>Desktop</summary>
-<img src="assets/Desktop-maker-pre-launch-landing-page.png" alt=""/>
+<img align="center" src="assets/Desktop-maker-pre-launch-landing-page.png" alt=""/>
 </details>
 
 <details>
 <summary>Tablet</summary>
-<img src="assets/Tablet-maker-pre-launch-landing-page.png" alt=""/>
+<img align="center" src="assets/Tablet-maker-pre-launch-landing-page.png" alt=""/>
 </details>
 
 <details>
 <summary>Mobile</summary>
-<img src="assets/Mobile-maker-pre-launch-landing-page.png" alt=""/>
+<img align="center" src="assets/Mobile-maker-pre-launch-landing-page.png" alt=""/>
 </details>
 
 ### Links
